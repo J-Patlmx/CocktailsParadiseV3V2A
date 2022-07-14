@@ -288,4 +288,5 @@ textarea {
 footer{
     background: rgb(175, 204, 78);
     background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
+    text-align: center;
 }
