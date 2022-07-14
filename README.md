@@ -4,6 +4,9 @@ test v2A cp
 2nd 14juillet bug du menu sticky resolu grace a un Z-index
 centrage des h2 et du footer 
 modification de certain nom de class et de id
+ajout du bandeau rgpd (bien que je prefere manger les cookies que de les utiliser )
 
-todo => media queries pur tablette et smartphone 
-ajouter un pseudo popup de valiudation de rgpd inutile atm sur le site 
+todo => 
+-media queries pour tablette et smartphone 
+-ajouter les vrai photo des cocktails
+
