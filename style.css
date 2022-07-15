@@ -299,11 +299,11 @@ footer{
 ---------------------------- Media Queries --------------------------------------------
 -------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1091px) {
+/* @media screen and (max-width: 1091px) {
     figure {
         display: block;
     }
-}
+} */
 
 
 @media screen and (max-width: 1025px) {
@@ -330,33 +330,3 @@ footer{
 
 
 }
-
-@media screen and (max-width: 625px) {
-   
-
-    header img {
-        margin: 0;
-        padding-left: 0px;
-    }
-
-    header ul {
-        margin-right: 0;
-    }
-
-    header li:hover {
-        border: none;
-    }
-
-    header li {
-        border: none;
-    }
-
-    #menu_projets {
-        margin: 12px 30px 2px 6px;
-        align-items: center;
-        display: flex;
-        list-style: none;
-        justify-content: center;
-    }
-}
-
