@@ -117,7 +117,12 @@ figure {
     visibility: hidden;
 }
 
+.lienrecipe {
+    text-decoration: none;
+    color: #F5F5F5;
+    cursor: grab;
 
+}
 
 #fig1:hover .figcap {
     visibility: visible;
