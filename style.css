@@ -96,7 +96,8 @@ p {
 }
 
 .recipes img {
-    max-height: 180px;
+   height: 200px;
+   width: 260px;
     position: relative;
 }
 
@@ -304,21 +305,15 @@ footer{
 ---------------------------- Media Queries --------------------------------------------
 -------------------------------------------------------------------------------*/
 
-/* @media screen and (max-width: 1091px) {
-    figure {
-        display: block;
-    }
-} */
+ @media screen and (max-width: 1091px){ 
 
-
-@media screen and (max-width: 1025px) {
     #brtest {
         display: none;
     }
 
     figure {
         display: block;
-        margin: auto;
+         margin: auto;  
     }
 
     iframe {
