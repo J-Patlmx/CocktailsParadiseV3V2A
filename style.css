@@ -232,7 +232,9 @@ iframe {
 #contact {
     text-transform: none;
     text-align: left;
-    font-size: 25px;
+    font-size: 1.5em;
+
+
 }
 
 #contactinfo {
@@ -240,12 +242,13 @@ iframe {
     top: 10%;
     right: 10%;
     bottom: 4%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.9);
+    background: rgb(175, 204, 78);
+    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
+    border: 1px solid rgba(175, 204, 78, 1);
     display: flex;
     justify-content: center;
     padding: 30px;
-    color: #1ED03A;
+    color: red;
 }
 
 #centrage {
@@ -259,9 +262,9 @@ input {
     padding: 6px 0px 6px 6px;
 }
 
-#NomBar {
+/* #NomBar {
     font-weight: bold;
-}
+} */
 
 textarea {
     font-family: Arial, sans-serif;
@@ -271,7 +274,7 @@ textarea {
 }
 
 #message {
-
+    margin-top: 2%;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -317,7 +320,7 @@ footer {
 
 @media screen and (max-width: 1091px) {
 
-    #brtest {
+    .brtest {
         display: none;
     }
 
