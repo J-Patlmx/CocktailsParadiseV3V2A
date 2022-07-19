@@ -2,34 +2,24 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Avenir, sans-serif;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato.ttf') format('truetype');
+
 }
 
 body {
     /* background-image: url('images/fond-jungle-plat-organique_23-2148957621.jpg');
     background-repeat: no-repeat; */
-    background: rgb(175, 204, 78);
-    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
-}
-
-#TitrePrincipal {
-    background: rgb(175, 204, 78);
-    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
-
-    text-align: center;
-    color: black;
-}
-
-.TitreSections {
-    /* h2*/
-    background-color: forestgreen;
-    text-align: center;
-    color: #12da3a;
-    text-shadow: #5CADD3;
+    /* background: rgb(175, 204, 78);
+    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%); */
+    background-color: #000000;
 }
 
 nav {
-     /* MENU */
+    /* MENU */
     width: 100%;
     margin: 0px auto 40px auto;
     background: rgb(175, 204, 78);
@@ -70,9 +60,38 @@ nav a {
 }
 
 nav a:hover {
-     /*petit changement dev couleurs au passage du cursor*/
+    /*petit changement dev couleurs au passage du cursor*/
     color: rgb(255, 162, 0);
     border-bottom: 2px solid rgba(255, 217, 0, 0.943);
+}
+
+#TitrePrincipal {
+    /* h1*/
+
+    text-align: center;
+    color: gold
+}
+
+.TitreSections {
+    /* h2*/
+    background: rgb(175, 204, 78);
+    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
+    text-align: center;
+    color: gold;
+    text-shadow: black;
+    font-family: Lato, Avenir, sans-serif;
+}
+
+
+#Accueil {
+    padding-top: 2%;
+    font-family: Lato, Avenir, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: goldenrod;
+    text-align: justify;
+    text-transform: uppercase;
+
 }
 
 .conteneur {
@@ -80,13 +99,11 @@ nav a:hover {
     height: 1500px;
 }
 
-
 p {
     color: black;
 }
-
 /*-------------------------------------------------------------------------------
----------------------------- COCKTAILS AVEC ET SANS ALCOOLS --------------------------------------------
+--------------------------- COCKTAILS AVEC ET SANS ALCOOLS -----------------------
 -------------------------------------------------------------------------------*/
 
 .recipes {
@@ -96,8 +113,8 @@ p {
 }
 
 .recipes img {
-   height: 200px;
-   width: 260px;
+    height: 200px;
+    width: 260px;
     position: relative;
 }
 
@@ -185,7 +202,7 @@ figure {
 ---------------------------- À propos --------------------------------------------
 -------------------------------------------------------------------------------*/
 #sec_form {
-    background-color: #F5F5F5;
+    background-color: black;
 }
 
 #contframe {
@@ -227,6 +244,7 @@ iframe {
     display: flex;
     justify-content: center;
     padding: 30px;
+    color: #1ED03A;
 }
 
 #centrage {
@@ -244,16 +262,6 @@ input {
     font-weight: bold;
 }
 
-form p {
-    background-color: #5CADD3;
-    color: white;
-    padding: 5px 5px 5px 5px;
-    width: 45%;
-    border-radius: 3px;
-    border-bottom: 3px #468CAD solid;
-
-}
-
 textarea {
     font-family: Arial, sans-serif;
     padding: 6px 0px 6px 6px;
@@ -262,11 +270,12 @@ textarea {
 }
 
 #message {
+
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     color: gold;
-    font-family: Arial;
+    font-family: Lato, Avenir, sans-serif;
     /* padding: 15px; */
     background-color: #0BC353;
     -webkit-box-shadow: 1px 1px 20px 0 #000000;
@@ -281,7 +290,7 @@ textarea {
 }
 
 #message:hover {
-    border: solid #FFAE00 1px;
+    border: solid goldenrod 1px;
     background: #4BF63D;
     background-image: -webkit-linear-gradient(top, #4BF63D, #1ED03A);
     background-image: -moz-linear-gradient(top, #4BF63D, #1ED03A);
@@ -294,7 +303,7 @@ textarea {
     text-decoration: none;
 }
 
-footer{
+footer {
     background: rgb(175, 204, 78);
     background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
     text-align: center;
@@ -305,7 +314,7 @@ footer{
 ---------------------------- Media Queries --------------------------------------------
 -------------------------------------------------------------------------------*/
 
- @media screen and (max-width: 1091px){ 
+@media screen and (max-width: 1091px) {
 
     #brtest {
         display: none;
@@ -313,7 +322,7 @@ footer{
 
     figure {
         display: block;
-         margin: auto;  
+        margin: auto;
     }
 
     iframe {
