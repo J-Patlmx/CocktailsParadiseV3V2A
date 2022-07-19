@@ -102,6 +102,7 @@ nav a:hover {
 p {
     color: black;
 }
+
 /*-------------------------------------------------------------------------------
 --------------------------- COCKTAILS AVEC ET SANS ALCOOLS -----------------------
 -------------------------------------------------------------------------------*/
@@ -142,35 +143,35 @@ figure {
 
 }
 
-#fig1:hover .figcap {
+.fig1:hover .figcap {
     visibility: visible;
 }
 
-#fig2:hover .figcap {
+.fig2:hover .figcap {
     visibility: visible;
 }
 
-#fig3:hover .figcap {
+.fig3:hover .figcap {
     visibility: visible;
 }
 
-#fig4:hover .figcap {
+.fig4:hover .figcap {
     visibility: visible;
 }
 
-#fig5:hover .figcap {
+.fig5:hover .figcap {
     visibility: visible;
 }
 
-#fig6:hover .figcap {
+.fig6:hover .figcap {
     visibility: visible;
 }
 
-#fig7:hover .figcap {
+.fig7:hover .figcap {
     visibility: visible;
 }
 
-#fig8:hover .figcap {
+.fig8:hover .figcap {
     visibility: visible;
 }
 
