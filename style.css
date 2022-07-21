@@ -343,3 +343,29 @@ footer {
 
 
 }
+
+/* @media screen and (min-width: 1091px) {
+
+    .brtest {
+        display: none;
+    }
+
+    figure {
+        display: block;
+        margin: auto;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    #contactinfo {
+        position: static;
+    }
+
+    #filtre {
+        display: none;
+    }
+
+
+} */

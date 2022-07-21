@@ -9,9 +9,12 @@ ajout des media queries, pas encore totallement satisfait
 indentation du code grace a beautify 
 reflexion sur la façon dont je souhaite afficher les recettes
 ajout des vrais photos des cocktails avec liens vers recette en video
+ZERRO ERREUR SUR LE W3C VALIDATOR 
 todo => 
 -media queries pour tablette et smartphone pas encore comme je souhaite sur tablettes 
 - finir de commentrer mon code
 
-quelques question au niveau de la font et de mon BGlinear
 
+
+ZERRO ERREUR SUR LE W3C VALIDATOR 
+RESTE A REMPLACER MES LOREM PAR DU TEXTES, DE FINIR LE DESIGN ET let's go
