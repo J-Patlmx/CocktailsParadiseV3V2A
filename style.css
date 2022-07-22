@@ -4,6 +4,7 @@
     padding: 0px;
 }
 
+/*Permet de definir la police d'ecriture*/
 @font-face {
     font-family: 'Lato';
     src: url('Lato.ttf') format('truetype');
@@ -65,6 +66,7 @@ nav a:hover {
 }
 
 #logoCP {
+    /* logo du site cocktails paradise */
     height: 320px;
     width: auto;
     display: block;
@@ -97,6 +99,7 @@ nav a:hover {
 ---------------------------- ACCUEIL --------------------------------------------
 -------------------------------------------------------------------------------*/
 #Accueil {
+    /*stylisation de la div Accueil */
     padding-top: 2%;
     font-family: Lato, Avenir, sans-serif;
     font-style: italic;
@@ -107,10 +110,12 @@ nav a:hover {
 }
 
 #texteAccueil {
+    /* couleur du texte du paragraphe texteAccueil*/
     color: goldenrod;
 }
 
 #lienCapuchon {
+    /* Stylisation du lien vers le site de capuchon pour verre*/
     text-decoration: none;
     color: whitesmoke;
     text-transform: capitalize;
@@ -125,9 +130,9 @@ nav a:hover {
 /*-------------------------------------------------------------------------------
 --------------------------- COCKTAILS AVEC ET SANS ALCOOLS -----------------------
 -------------------------------------------------------------------------------*/
-p {
+/* p {
     color: black;
-}
+} */
 
 .recipes {
     display: flex;
@@ -224,6 +229,7 @@ figure {
 /*-------------------------------------------------------------------------------
 ---------------------------- À propos --------------------------------------------
 -------------------------------------------------------------------------------*/
+/* mise en place et sylisation du formulaire de contact et de la map */
 #sec_form {
     background-color: black;
 }
@@ -324,6 +330,9 @@ textarea {
     text-decoration: none;
 }
 
+/*----------------------------------------
+------------------FOOTER-------------------------
+--------------------------------------------*/
 footer {
     background: rgb(175, 204, 78);
     background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%);
