@@ -101,10 +101,13 @@ nav a:hover {
     font-family: Lato, Avenir, sans-serif;
     font-style: italic;
     font-size: 1em;
-    color: goldenrod;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 2%;
+}
+
+#texteAccueil {
+    color: goldenrod;
 }
 
 #lienCapuchon {
@@ -113,9 +116,7 @@ nav a:hover {
     text-transform: capitalize;
 }
 
-p {
-    color: black;
-}
+
 
 /* -------------------------------------------------------------------------------
 ---------------------------- FIN ACCUEIL --------------------------------------------
@@ -124,6 +125,9 @@ p {
 /*-------------------------------------------------------------------------------
 --------------------------- COCKTAILS AVEC ET SANS ALCOOLS -----------------------
 -------------------------------------------------------------------------------*/
+p {
+    color: black;
+}
 
 .recipes {
     display: flex;
