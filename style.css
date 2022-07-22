@@ -11,13 +11,12 @@
 }
 
 body {
-    /* background-image: url('images/fond-jungle-plat-organique_23-2148957621.jpg');
-    background-repeat: no-repeat; */
-    /* background: rgb(175, 204, 78);
-    background: linear-gradient(150deg, rgba(175, 204, 78, 1) 0%, rgba(61, 172, 155, 1) 74%, rgba(60, 103, 14, 1) 94%); */
     background-color: #000000;
 }
 
+/* -------------------------------------------------------------------------------
+---------------------------- HEADER --------------------------------------------
+-------------------------------------------------------------------------------*/
 nav {
     /* MENU */
     width: 100%;
@@ -65,12 +64,24 @@ nav a:hover {
     border-bottom: 2px solid rgba(255, 217, 0, 0.943);
 }
 
+#logoCP {
+    height: 320px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+    border: none;
+
+}
+
 #TitrePrincipal {
     /* h1*/
-
     text-align: center;
     color: gold
 }
+
+/* -------------------------------------------------------------------------------
+---------------------------- FIN HEADER --------------------------------------------
+-------------------------------------------------------------------------------*/
 
 .TitreSections {
     /* h2*/
@@ -82,26 +93,33 @@ nav a:hover {
     font-family: Lato, Avenir, sans-serif;
 }
 
-
+/* -------------------------------------------------------------------------------
+---------------------------- ACCUEIL --------------------------------------------
+-------------------------------------------------------------------------------*/
 #Accueil {
     padding-top: 2%;
     font-family: Lato, Avenir, sans-serif;
     font-style: italic;
     font-size: 1em;
     color: goldenrod;
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
-
+    padding-bottom: 2%;
 }
 
-.conteneur {
-    margin: 0px 20px;
-    height: 1500px;
+#lienCapuchon {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: capitalize;
 }
 
 p {
     color: black;
 }
+
+/* -------------------------------------------------------------------------------
+---------------------------- FIN ACCUEIL --------------------------------------------
+-------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------
 --------------------------- COCKTAILS AVEC ET SANS ALCOOLS -----------------------
@@ -262,10 +280,6 @@ input {
     padding: 6px 0px 6px 6px;
 }
 
-/* #NomBar {
-    font-weight: bold;
-} */
-
 textarea {
     font-family: Arial, sans-serif;
     padding: 6px 0px 6px 6px;
@@ -280,7 +294,6 @@ textarea {
     border-radius: 20px;
     color: gold;
     font-family: Lato, Avenir, sans-serif;
-    /* padding: 15px; */
     background-color: #0BC353;
     -webkit-box-shadow: 1px 1px 20px 0 #000000;
     -moz-box-shadow: 1px 1px 20px 0 #000000;
@@ -343,29 +356,3 @@ footer {
 
 
 }
-
-/* @media screen and (min-width: 1091px) {
-
-    .brtest {
-        display: none;
-    }
-
-    figure {
-        display: block;
-        margin: auto;
-    }
-
-    iframe {
-        display: none;
-    }
-
-    #contactinfo {
-        position: static;
-    }
-
-    #filtre {
-        display: none;
-    }
-
-
-} */
